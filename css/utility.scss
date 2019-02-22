@@ -1,0 +1,27 @@
+/*
+  Theme Name: Elite Hemp CBD
+  Description: Child theme of storefront
+  Author: Tanner Hoffman
+  Author URI: https//tannerhoffman.space
+  Template: storefront
+  Version: 1.0.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.nu.org/licenses/gpl-2.0.html
+  Tags: woocommerce, spa, responsive layout
+  Text Domain: storefront
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4 {
+  font-family: 'Viga', sans-serif;
+}
+.c-purple {
+  color: $mainTeal;
+}
+.single_add_to_cart_button .icon {
+  margin-right: 7px;
+}
+.single_add_to_cart_button .icon:hover {
+  color: $mainTeal;
+}

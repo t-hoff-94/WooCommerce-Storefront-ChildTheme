@@ -1,0 +1,20 @@
+ul.products li.product.product-category img {
+  transform: scale(1);
+  transition: all .4s;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.storefront-product-categories .section-title {
+  display: none;
+}
+.row-full{
+background: #f3f3f3;
+width: 100vw;
+padding: 2rem 5px;
+position: relative;
+margin-left: -50vw;
+margin-top: 100px;
+left: 50%;
+}

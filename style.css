@@ -1,0 +1,118 @@
+/*
+  Theme Name: Elite Hemp CBD
+  Description: Child theme of storefront
+  Author: Tanner Hoffman
+  Author URI: https//tannerhoffman.space
+  Template: storefront
+  Version: 1.0.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.nu.org/licenses/gpl-2.0.html
+  Tags: woocommerce, spa, responsive layout
+  Text Domain: storefront
+*/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Viga', sans-serif;
+}
+
+.c-purple {
+  color: #89c6b5;
+}
+
+.single_add_to_cart_button .icon {
+  margin-right: 7px;
+}
+
+.single_add_to_cart_button .icon:hover {
+  color: #89c6b5;
+}
+
+.hentry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link {
+  border: 2px solid #000;
+  -webkit-box-shadow: 0px 0px 3px 2px #888;
+          box-shadow: 0px 0px 3px 2px #888;
+}
+
+.hentry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.site-header ul.menu li.current-menu-item > a {
+  font-weight: bold;
+  color: #222;
+  border-bottom: 2px solid #89c6b5;
+}
+
+.menu-toggle {
+  background: blue;
+  border-radius: 44px;
+}
+
+.current_page_item a {
+  /* text-decoration-color: purple; */
+}
+
+.site-branding {
+  width: 60%;
+}
+
+.site-branding svg {
+  max-width: 111px;
+}
+
+@media (min-width: 768px) {
+  .storefront-primary-navigation {
+    border-top: 1px solid #89c6b5;
+    border-bottom: 1px solid #89c6b5;
+    background: #222;
+    color: #fff;
+  }
+  .main-navigation ul.menu > li > a, .main-navigation ul.nav-menu > li > a {
+    color: #fff;
+  }
+  .cart-contents a {
+    color: #fff;
+  }
+  .site-header ul.menu li.current-menu-item > a {
+    color: #999;
+  }
+  .site-header-cart .cart-contents .amount {
+    color: #fff;
+  }
+  .site-header-cart .cart-contents .count {
+    color: #fff;
+    opacity: 1;
+  }
+  .site-header-cart .cart-contents::after {
+    color: #89c6b5;
+  }
+}
+
+ul.products li.product.product-category img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+ul.products li.product.product-category img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.storefront-product-categories .section-title {
+  display: none;
+}
+
+.row-full {
+  background: #f3f3f3;
+  width: 100vw;
+  padding: 2rem 5px;
+  position: relative;
+  margin-left: -50vw;
+  margin-top: 100px;
+  left: 50%;
+}
