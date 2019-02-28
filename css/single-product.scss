@@ -1,0 +1,25 @@
+.onsale {
+  border: none;
+  background: $mainTeal;
+  color: #222;
+}
+.saved-amount {
+  border: 2px solid $mainTeal;
+  border-radius: 11px;
+  display: inline-block;
+  font-size: .8em;
+  font-weight: bold;
+  padding: .5rem;
+  margin-top: 15px;
+}
+.saved-amount .amount {
+  font-size: 1em;
+  font-weight: normal;
+}
+.woocommerce-message , .woocommerce-message .button, .woocommerce-noreviews {
+  background: $mainTeal;
+  color: #222;
+}
+.stock.in-stock {
+  color: darken($mainTeal, 22%);
+}

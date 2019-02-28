@@ -7,9 +7,13 @@
 @mixin atMedium {
   @media (min-width: 960px) { @content; }
 }
+@mixin atMediumLarge {
+  @media (min-width: 1111px) { @content; }
+}
 
-
-$mainTeal: rgb(137, 198, 181);
+$tealGradient: linear-gradient(to right, rgba(9,108,125,1) 0%, rgba(77,219,248,1) 60%, rgba(77,219,248,1) 100%);
+$lightTealGradient: linear-gradient(to right, rgba(192,231,237,1) 0%, rgba(77,219,248,1) 100%);
+$mainTeal: #4ddbf8;
 $lightOrange: #EE964B;
 $darkOrange: #F95738;
 $lightGreen: #a5cdb2;
@@ -21,5 +25,9 @@ $violet: #775fa7;
 @import 'css/utility';
 @import 'css/btn';
 @import 'css/header';
+@import 'css/footer';
 @import 'css/single-product.scss';
 @import 'css/misc.scss';
+@import 'css/slick';
+@import 'css/slider';
+@import 'css/home-slider';

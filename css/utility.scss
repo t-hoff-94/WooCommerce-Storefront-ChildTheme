@@ -16,12 +16,24 @@ body {
 h1,h2,h3,h4 {
   font-family: 'Viga', sans-serif;
 }
+.headline {
+  &--gradient {
+    &:hover {
+      background: $tealGradient;
+    	-webkit-background-clip: text;
+    	-webkit-text-fill-color: transparent;
+    }
+  }
+}
+.bg-grey {
+  background: #f9f9f9;
+}
 .c-purple {
   color: $mainTeal;
 }
-.single_add_to_cart_button .icon {
-  margin-right: 7px;
+.c-grey {
+  color: #222;
 }
-.single_add_to_cart_button .icon:hover {
-  color: $mainTeal;
+.t-center {
+  text-align: center;
 }

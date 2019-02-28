@@ -7,3 +7,39 @@
 .hentry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link:hover {
   background: rgba(0,0,0,0.7);
 }
+.btn {
+  border-radius: 11px;
+  &--dgrey {
+    background: #222;
+    color: #fff;
+  }
+}
+
+.added_to_cart {
+  border-radius: 11px;
+  background: $lightTealGradient;
+  color: #222;
+  &:hover {
+    color: #fff;
+    background: #222;
+  }
+}
+
+ul.products li.product .button, .single_add_to_cart_button, .btn.alt {
+  border-radius: 11px;
+  background: #222;
+  color: #fff;
+  &:hover {
+    background: $lightTealGradient;
+    color: #222;
+  }
+}
+.single_add_to_cart_button .icon {
+  margin-right: 7px;
+}
+// .single_add_to_cart_button:hover {
+//   color: #222;
+//   .icon {
+//     color: $mainTeal;
+//   }
+// }

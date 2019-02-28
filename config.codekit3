@@ -15,10 +15,10 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/content-archive.php": {
+	"\/content-page.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content-archive.php",
+		"oAP": "\/content-page.php",
 		"oF": 0
 		},
 	"\/css\/btn.scss": {
@@ -34,16 +34,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/footer.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/footer-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -51,7 +41,7 @@
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/footer.css",
 		"oF": 0,
 		"oS": 0,
@@ -66,6 +56,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/home-page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/home-page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/home-slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/home-slider.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -96,6 +112,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/slider.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/slider.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/utility.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -121,24 +163,74 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/images\/bus.jpg": {
+		"ft": 16384,
+		"iS": 107450,
+		"oA": 0,
+		"oAP": "\/images\/bus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/girl_hemp-field.jpg": {
+		"ft": 16384,
+		"iS": 1105759,
+		"oA": 0,
+		"oAP": "\/images\/girl_hemp-field.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/hemp-field.jpg": {
+		"ft": 16384,
+		"iS": 1908730,
+		"oA": 0,
+		"oAP": "\/images\/hemp-field.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/icons\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/js\/modules\/HomeSlider.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/js\/modules\/HomeSlider-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/js\/scripts-bundled.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/scripts-bundled-min.js",
-		"oF": 0,
-		"sC": 3,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/js\/scripts-min.js",
-		"oF": 0,
-		"sC": 3,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/node_modules": {
@@ -183,8 +275,14 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 0,
-		"oS": 1,
+		"oS": 3,
 		"uL": 1
+		},
+	"\/template-parts\/content-post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-post.php",
+		"oF": 0
 		},
 	"\/template-parts\/custom-footer-section.php": {
 		"ft": 8192,
@@ -202,6 +300,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/home-page-banner.php",
+		"oF": 0
+		},
+	"\/template-parts\/home-slider.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/home-slider.php",
 		"oF": 0
 		},
 	"\/webpack.config.js": {

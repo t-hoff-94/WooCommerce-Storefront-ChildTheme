@@ -1,0 +1,48 @@
+.hero-slider {
+  background-size: cover;
+  padding-top: 25px;
+  margin-bottom: 4em;
+  &__slide {
+    h2{
+      color: #fff;
+      font-size: 3rem;
+      text-align: center;
+    }
+  }
+  .cols-2 {
+    p {
+      padding: 1em;
+      color: #fff;
+    }
+    @include atSmallMedium {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      p {
+        flex: 0 0 50%;
+      }
+      .slider-product {
+        flex: 0 0 50%;
+        margin: 0;
+      }
+    }
+  }
+}
+.slider-product {
+  h2,h3,span {
+    color: #fff;
+  }
+  max-width: 130px;
+  margin: 0 auto;
+  @include atMediumLarge {
+    max-width: 222px;
+  }
+  .onsale {
+    color: #222;
+  }
+}
+.hero-slider {
+  ul.products li.product {
+    margin-bottom: 0;
+  }
+}
