@@ -11,7 +11,7 @@
   }
   .cols-2 {
     p {
-      padding: 1em;
+      padding: 1.5em;
       color: #fff;
     }
     @include atSmallMedium {
@@ -20,10 +20,16 @@
       justify-content: center;
       p {
         flex: 0 0 50%;
+        @include atMediumLarge {
+          flex: 0 0 30%;
+        }
       }
       .slider-product {
         flex: 0 0 50%;
         margin: 0;
+        @include atMediumLarge {
+          flex: 0 0 70%;
+        }
       }
     }
   }

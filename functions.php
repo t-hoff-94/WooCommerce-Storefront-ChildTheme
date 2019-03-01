@@ -2,6 +2,7 @@
 // add image sizes
 function my_child_theme_setup() {
   add_image_size('blog_entry', 400, 257, true);
+  add_image_size('blog_bg', 1000, 333, true);
 }
 add_action('after_setup_theme', 'my_child_theme_setup');
 
@@ -62,10 +63,10 @@ function display_group() {
   $_cf = new WC_Product_Factory();
   $_product = $_cf->get_product(31);
   $_product_image = wp_get_attachment_image_src($_product->image_id);
-  echo "<pre>";
-  var_dump($_product_image);
-  var_dump($_product);
-  echo "</pre>";?>
+  // echo "<pre>";
+  // var_dump($_product_image);
+  // var_dump($_product);
+  // echo "</pre>";?>
   <div class="home-group row-full bg-grey">
     <div class="homepage-home-group col-full">
       <div class="content">
@@ -164,6 +165,9 @@ function custom_footer_section() {
   }
 
   add_action('wp_enqueue_scripts', 'child_theme_files');
+
+
+
 
 
   function child_theme_features() {
@@ -325,8 +329,29 @@ add_action('homepage', 'customSliderBanner', 15);
 
 
 
-
-
+//copied from storefront template functions
+if ( ! function_exists( 'storefront_secondary_navigation' ) ) {
+	/**
+	 * Display Secondary Navigation
+	 *
+	 * @since  1.0.0
+	 * @return void
+	 */
+	function storefront_secondary_navigation() {
+		if ( has_nav_menu( 'secondary' ) ) {
+			?>
+			<nav class="secondary-navigation" role="navigation" aria-label="<?php esc_html_e( 'Secondary Navigation', 'storefront' ); ?>">
+				<div class="menu-social-menu-container">
+          <ul id="menu-social-menu" class="menu">
+            <li class='menu-item'><i class='fa fa-search'></i>hey</li>
+            <li class='menu-item'>tits</li>
+          </ul>
+        </div>
+			</nav><!-- #site-navigation -->
+			<?php
+		}
+	}
+}
 
 
 

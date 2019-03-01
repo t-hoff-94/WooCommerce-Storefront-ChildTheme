@@ -5,7 +5,8 @@
   // box-shadow: inset 0 -3px 0 #000;
 }
 .hentry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link:hover {
-  background: rgba(0,0,0,0.7);
+  background: $lightTealGradient;
+  color: #222;
 }
 .btn {
   border-radius: 11px;

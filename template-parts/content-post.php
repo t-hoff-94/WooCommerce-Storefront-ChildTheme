@@ -1,4 +1,4 @@
-<div class="post-item">
+<div class="post-item" style="background-image:linear-gradient(to top, rgba(26,74,84,1) 0%, rgba(26,74,84,0.9) 22%,rgba(62,174,196,0.7) 100%), url(<?php the_post_thumbnail_url('blog_bg'); ?>);">
   <!-- <img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /> -->
     <h2 class="headline headline--medium headline--gradient headline--post-title"><a class='c-grey' href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 

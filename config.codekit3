@@ -15,10 +15,10 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/content-page.php": {
+	"\/content.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content-page.php",
+		"oAP": "\/content.php",
 		"oF": 0
 		},
 	"\/css\/btn.scss": {
@@ -275,7 +275,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 0,
-		"oS": 3,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/template-parts\/content-post.php": {
